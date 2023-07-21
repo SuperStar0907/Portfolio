@@ -1,96 +1,626 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
+    <title>Tirth Motka</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+    <link rel = "icon" href = 
+    "images/laptop_1.jpg" 
+        type = "image/x-icon">
   </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+  <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+    <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+  
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+  
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="#section-resume">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-blog">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  
+  
+  <!-- 	<section class="site-hero" id="section-home" data-stellar-background-ratio="0.5"> -->
+      <section class="site-hero" style="background-image: url(images/four.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row intro-text align-items-center justify-content-center">
+          <div class="col-md-10 text-center pt-5">
+            <h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Tirth Motka</strong></h1>
+            <strong class="d-block text-white text-uppercase letter-spacing">a Full Stack Developer and Blockchain Enthusiast</strong>
+          </div>
+        </div>
+      </div>
+    </section> <!-- section -->
+  
+  
+    <section class="site-section " id="section-resume">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2>Working <strong>Experience</strong></h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="resume-item mb-4">
+              <span class="school"><h1 href="https://www.sprinklr.com" target="_blank"><strong>Sprinklr</strong></h1></span>
+              <h3>Backend Product Engineer Intern (full-time)</h3>
+              <span class="date"><span class="icon-calendar"></span> May 2023 – July 2023 </span>
+              <p>1. Implemented a webhook listener and processor in Java with Spring Boot, integrating PagerDuty incidents, processing
+                requests, and storing data in a custom generic model in Elasticsearch.</p>
+              <p>2. Utilized global error handling, performed unit testing with Mockito and JUnit, and conducted load testing with Apache
+                JMeter with local port exposed using ngrok.</p>
+              <!-- <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p> -->
+            </div>
+            <div class="resume-item mb-4">
+              <span class="school"><h1 href="https://www.wtvision.com" target="_blank"><strong>Wtvision-BCCI</strong></h1></span>
+              <h3>Software Development Intern (part-time)</h3>
+              <span class="date"><span class="icon-calendar"></span> Jan 2023 - April 2023 </span>
+              <p>1. Engineered an Electron app’s front-end, integrating Fabric.js in React, to track cricket boundaries and players, supporting both JSON files and 4k live video feed inputs.</p>
+              <p>2. Orchestrated a fastAPI to retrieve application configurations via Python and Uvicorn.</p>
+              <!-- <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p> -->
+            </div>
+  
+          </div>
+          <div class="col-md-6">
+  
+            <div class="resume-item mb-4">
+              <span class="school"><h1 href="https://www.metalok.io" target="_blank"><strong>Metalok</strong></h1></span>
+              <h3>Full-Stack Developer Intern (part-time)</h3>
+              <span class="date"><span class="icon-calendar"></span> May 2022 - August 2022</span>
+              <p>1. Constructed a Polygon blockchain-based Crypto Trading App using React and Firebase, offering a dedicated fan-token marketplace for the project named sportsverse.cricket which was deployed on AWS.</p>
+              <p>2. Designed a graph-based UI for fan tokens using TheGraph API and Tradingview charts within React and Rainbow-animated Charts in React-native .</p>
+            
+            </div>
+  
+            <div class="resume-item mb-4">
+              <span class="school"><h1 href="https://www.wtvision.com" target="_blank"><strong>Aided</strong></h1></span>
+              <h3>Software Development Intern (part-time)</h3>
+              <span class="date"><span class="icon-calendar"></span> January 2022 – April 2022 </span>
+              <p>1. Developed a multi-user, MERN stack healthcare application serving special needs children, parents, and therapists, featuring a synchronized scheduling and emailing system.</p>
+              <p>2. Utilized Docker for web app integration and deployed it via the NGINX local server.</p>
+              <!-- <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- .section -->
+  
+    <section class="site-section" id="section-blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2>Featured <strong>Projects</strong></h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/Food-Portal" target="_blank"><img src="https://www.rlogical.com/wp-content/uploads/2020/12/MERN.webp" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/Food-Portal" target="_blank">Food Portal - Dockerized full-stack MERN application</a></h3>
+                <p class="mb-4">multifaceted canteen system, leveraging ExpressJS backend, MongoDB Atlas, ReactJS frontend and email.js for real-time notifications, while enhancing local deployment and testability through NGINX server and NGROK</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/Clash_of_Clans" target="_blank"><img src="images/coc.png" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/Clash_of_Clans" target="_blank">Clash-of-Clans - Terminal based python game</a></h3>
+                <p class="mb-4">feature-rich, Terminal based game, employing Python and comprehensive OOP principles (Encapsulation, Inheritance, Abstraction, and Polymorphism) and OS multi-threading and asynchronous I/O operations.</p>
+              </div>
+            </div>
+          </div>				
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/invoice-generator" target="_blank"><img src="https://user-images.githubusercontent.com/74975220/255162639-ab3cc010-6d6f-48db-be46-10b3db1895e0.png" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/invoice-generator" target="_blank">Invoice 2.0 - React-Redux based invoice generator</a></h3>
+                <p class="mb-4">Invoice management system using React and Redux with Slice, implementing CRUD operations, dynamic routing, and state management, while utilizing React-Router-DOM for effective navigation.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>			
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/Decentral-Bank" target="_blank"><img src="images/Website-UI.png" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/Decentral-Bank" target="_blank">Decentral Bank - DeFi Stake and Reward App</a></h3>
+                <p class="mb-4">User-friendly, React-based web application with Solidity smart contracts, enabling seamless staking and withdrawal of tokens, complete with real-time balance updates and rewards tracking.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/Clash_of_Clans" target="_blank"><img src="images/shell.png" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/Clash_of_Clans" target="_blank">Cshell - Bash-like shell In C using concepts of OS</a></h3>
+                <p class="mb-4">Modular Bash-like shell in C, leveraging core Operating Systems concepts for efficient piping, signal handling, foreground/background process management and I/O exceptions handling with systems.</p>
+              </div>
+            </div>
+          </div>				
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/invoice-generator" target="_blank"><img src="https://www.freecodecamp.org/news/content/images/2020/08/Untitled-design-1-.png" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/invoice-generator" target="_blank">Event Manager - SQL based CLI for Complex Queries</a></h3>
+                <p class="mb-4">sophisticated search operations, multi-field data updates, and record maintenance. Enhanced user experience by efficient handling of complex queries and database management.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/nextjs-nft-marketplace" target="_blank"><img src="https://user-images.githubusercontent.com/74975220/255116671-caae397b-dd35-41de-9f68-f2e9e193dbcf.png" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/nextjs-nft-marketplace" target="_blank">NFT marketplace - NextJS and Solidity based web-app</a></h3>
+                <p class="mb-4">Innovative NFT marketplace web application using NextJS and Solidity, offering seamless functionality for buying and selling NFTs, with personalized dashboards, all hosted and deployed on Vercel.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/Crypto-Checker" target="_blank"><img src="images/screens.png" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/Crypto-Checker" target="_blank">Crypto-Checker App - React Native based IOS-android app</a></h3>
+                <p class="mb-4">Modular Bash-like shell in C, leveraging core Operating Systems concepts for efficient piping, signal handling, foreground/background process management and I/O exceptions handling with systems.</p>
+              </div>
+            </div>
+          </div>				
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="blog-entry">
+              <a href="https://github.com/SuperStar0907/Price-Tracker-bot" target="_blank"><img src="images/crypto-check.png" alt="Image placeholder" class="img-fluid"></a>
+              <div class="blog-entry-text">
+                <h3><a href="https://github.com/SuperStar0907/Price-Tracker-bot" target="_blank">Price Tracker Bot - Python-based telegram bot</a></h3>
+                <p class="mb-4">A feature-rich bot with added functionality to schedule price chart tracking messages for specific crypto coins at selected time intervals using apscheduler providing tracking capabilities for cryptocurrencies.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+  
+    <!-- <section class="site-section" id="section-portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-heading text-center col-md-12">
+            <h2>Featured <strong>Projects</strong></h2>
+          </div>
+        </div>
+        <div class="filters">
+          <ul>
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".mockup">Full-stack Development</li>
+            <li data-filter=".typography">Blockchain</li>
+            <li data-filter=".photography">Machine Learning</li>
+          </ul>
+        </div>
+  
+        <div class="filters-content">
+          <div class="row grid">
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/p1.jpg" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Square Box Mockup</h4>
+                <div class="cat">Mockup</div>
+              </div>                                         
+            </div>
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/p2.jpg" alt="">
+                </div>
+                <a href="images/p2.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Product Box Package Mockup</h4>
+                <div class="cat">Mockup</div>
+              </div>                                         
+            </div>                            
+            <div class="single-portfolio col-sm-4 all packaging">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/p3.jpg" alt="">
+                </div>
+                <a href="images/p3.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a> 
+  
+              </div>
+              <div class="p-inner">
+                <h4>Creative Package Design</h4>
+                <div class="cat">Packaging</div>
+              </div>
+            </div>
+            <div class="single-portfolio col-sm-4 all packaging">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/p4.jpg" alt="">
+                </div>
+                <a href="images/p4.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                
+              </div> 
+              <div class="p-inner">
+                <h4>Packaging Brand</h4>
+                <div class="cat">Packaging</div>
+              </div>
+            </div>
+            <div class="single-portfolio col-sm-4 all typography">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/p5.jpg" alt="">
+                </div>
+                <a href="images/p5.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                
+              </div>
+              <div class="p-inner">
+                <h4>Isometric 3D Extrusion</h4>
+                <div class="cat">Typography</div>
+              </div>
+            </div>
+            <div class="single-portfolio col-sm-4 all photography">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/p6.jpg" alt="">
+                </div>
+                <a href="images/p6.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                
+              </div>
+              <div class="p-inner">
+                <h4>White Space Photography</h4>
+                <div class="cat">photography</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  
+    <section class="site-section" id="section-about">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-5 pr-lg-5 mb-5 mb-lg-0">
+            <img src="images/3-2.png" alt="Image placeholder" >
+          </div>
+          <div class="col-lg-7 pl-lg-5">
+            <div class="section-heading">
+              <h2>About <strong>Me</strong></h2>
+            </div>
+            <p class="lead">Computer Science understudy at IIIT-H  </p>
+            <p class="mb-5  ">I'm more than just a Computer Science Bachelor's student at the International Institute of Information Technology, Hyderabad - I'm a passionate tech enthusiast who thrives on learning new technologies and leveraging them to build innovative projects. My earnest curiosity has led to proficient knowledge and experience in Solidity, JavaScript, Python, C++, Bash, Java, and next-generation frameworks.						
+              My openness transcends beyond tech learning. I am also open to new experiences, new challenges, and new collaborations. So whether you have a disruptive idea, an interesting project, or an amazing collaboration opportunity, I'd love to hear about it and participate! </p>
+  
+            <p>
+              <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Contact Me</a>
+              <a href="https://drive.google.com/drive/folders/1Qc8O-43fyzHDlRS3YCxTcj3Y7j7AiWth?usp=sharing" target="_blank" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+            </p>
+          </div>
+        </div>
+  
+  
+      </div>
+    </section>
+  
+    <!-- <section class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="section-heading text-center">
+              <h2>Client <strong>Testimonial</strong></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+  
+            <div class="block-47 d-flex mb-5">
+              <div class="block-47-image">
+                <img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid">
+              </div>
+              <blockquote class="block-47-quote">
+                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ Inc.</a></cite>
+              </blockquote>
+            </div>
+  
+          </div>
+          <div class="col-md-6">
+  
+            <div class="block-47 d-flex mb-5">
+              <div class="block-47-image">
+                <img src="images/person_2.jpg" alt="Image placeholder" class="img-fluid">
+              </div>
+              <blockquote class="block-47-quote">
+                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ Inc.</a></cite>
+              </blockquote>
+            </div>
+  
+          </div>
+  
+          <div class="col-md-6">
+  
+            <div class="block-47 d-flex mb-5">
+              <div class="block-47-image">
+                <img src="images/person_3.jpg" alt="Image placeholder" class="img-fluid">
+              </div>
+              <blockquote class="block-47-quote">
+                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ Inc.</a></cite>
+              </blockquote>
+            </div>
+  
+          </div>
+          <div class="col-md-6">
+  
+            <div class="block-47 d-flex mb-5">
+              <div class="block-47-image">
+                <img src="images/person_4.jpg" alt="Image placeholder" class="img-fluid">
+              </div>
+              <blockquote class="block-47-quote">
+                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ Inc.</a></cite>
+              </blockquote>
+            </div>
+  
+          </div>
+  
+        </div>
+      </div>
+    </section> -->
+  
+    <!-- <section class="site-section pb-0"  id="section-services">
+      <div class="container">
+  
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <div class="section-heading text-center">
+              <h2>My <strong>Projects</strong></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+  
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-browser"></span>
+              </span>
+              <h3 class="mb-4">Sportsverse</h3>
+              <p>I worked as a frontend lead on this project while working at <a href="https://www.metalok.io" target="_blank">metalok.io</a> and worked on Moralis API with cloud functions on firebase</p>
+              <p><a href="https://www.sportsverse.cricket" target="_blank" class="site-link">Website <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-cart"></span>
+              </span>
+              <h3 class="mb-4">FOOD PORTAL</h3>
+              <p>A Dockerized MERN food portal app deployed on Nginx which can work on any device connected to the local network.</p>
+              <p><a href="https://github.com/SuperStar0907/Food-Portal" target="_blank" class="site-link">Github link<i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-calculator2"></span>
+              </span>
+              <h3 class="mb-4">Tip Calculator</h3>
+              <p>An native Android app build using kotlin in android studio which is simple but useful as a calculator</p>
+              <br>
+              <p><a href="https://github.com/SuperStar0907/Tip_Calculator_Kotlin" target="_blank" class="site-link">Github link<i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+        <div class="row">
+  
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-code"></span>
+              </span>
+              <h3 class="mb-4">C-Shell</h3>
+              <p>A modular Bash-like shell in C using Linux system calls including piping, threading,
+                redirection, signal handling, extensive error Zsh-like error handling.</p>
+              <p><a href="https://github.com/SuperStar0907/Shell" target="_blank" class="site-link">Github link<i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-calendar2"></span>
+              </span>
+              <h3 class="mb-4">Event Manager</h3>
+              <p>A team Project in SQL which shows a structure for management of event using relational database Using python3 and SQLite3</p>
+              <p><a href="https://github.com/SuperStar0907/Event-Manager-SQL-" target="_blank" class="site-link">Github link<i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center mb-5">
+            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-folder"></span>
+              </span>
+              <h3 class="mb-4">Directory Management</h3>
+              <p>A user-friendly interactive shell project made in c++ using the Most efficient Data Structures and Optimised algorithms with various options</p>
+              <p><a href="https://github.com/SuperStar0907/DSA-Project" target="_blank" class="site-link">Github link<i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+      </div>
+    </section> -->
+  
+  
+    
+  
+  
+  
+    <section class="site-section" id="section-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-1">
+            <div class="section-heading text-center">
+              <h2>My <strong>Contact Details</strong></h2>
+            </div>
+          </div>
+          <!-- <div class="col-md-7 mb-5 mb-md-0">
+            <form action="" class="site-form">
+              <h3 class="mb-5">Get In Touch</h3>
+              <div class="form-group">
+                <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+              </div>
+              <div class="form-group mb-5">
+                <textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+              </div>
+            </form>
+          </div> -->
+          
+          <div class="col-md-12 mb-0 hmm" >
+            <!-- <h3 class="mb-5" >My Contact Details</h3> -->
+            <ul class="site-contact-details">
+              <li>
+                <span class="text-uppercase">Email</span>
+                tirth.motka09@gmail.com
+              </li>
+              <li>
+                <span class="text-uppercase">Linkedin</span>
+                <a href="https://www.linkedin.com/in/tirth-motka-4ba8b4205/" target="_blank">Tirth Motka</a>
+              </li>
+              <li>
+                <span class="text-uppercase">Github</span>
+                <a href="https://github.com/SuperStar0907" target="_blank">SuperStar0907</a>
+              </li>
+              <li>
+                <span class="text-uppercase">Address</span>
+                Ahmedabad, Gujarat, India <br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+    <footer class="site-footer">
+      <div class="container">
+  
+        <div class="row mb-5">
+          <p class="col-12 text-center">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by Tirth Motka
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+        
+        <!-- <div class="row mb-5">
+          <div class="col-md-12 text-center">
+            <p>
+              <a href="#" class="social-item"><span class="icon-codeforces"></span></a>
+              <a href="#" class="social-item"><span class="icon-twitter"></span></a>
+              <a href="#" class="social-item"><span class="icon-github"></span></a>
+              <a href="#" class="social-item"><span class="icon-linkedin2"></span></a>
+              <a href="#" class="social-item"><span class="icon-vimeo"></span></a>
+            </p>
+          </div>
+        </div> -->
+        
+      </div>
+    </footer>
+  
+  
+  
+  
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+  
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+  
+    <script src="js/vendor/jquery.stellar.min.js"></script>
+    <script src="js/vendor/jquery.waypoints.min.js"></script>
+  
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="js/custom.js"></script>
+  
+    <!-- Google Map -->
+      <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+        <script src="js/google-map.js"></script> -->
+  
+      </body>
 </html>
